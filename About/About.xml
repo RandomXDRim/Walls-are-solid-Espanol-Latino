@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Walls are solid (Español Latino)</name>
+	<author>RandomXD</author>
+	<packageId>Randomxd.WallsAreSolid.esl</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Traducción al español latino para el mod Walls Are Solid. \nRequiere el mod original cargado arriba de este.</description>
+	<modDependencies>
+		<li>
+			<packageId>Victor.WallsAreSolid</packageId>
+			<displayName>Walls are solid</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2896548513</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Victor.WallsAreSolid</li>
+	</loadAfter>
+</ModMetaData>
