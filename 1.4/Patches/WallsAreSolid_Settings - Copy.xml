@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/XmlExtensions.SettingsMenuDef[defName="Victor.WallsAreSolid.Settings"]/settings</xpath>
+        <value>
+            <settings>
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>LOS CAMBIOS REQUIEREN REINICIAR EL JUEGO</text>
+                    <font>Medium</font>
+                    <anchor>Middle</anchor>
+                </li>
+                <li Class="XmlExtensions.Setting.GapLine"/>
+
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>El daño contra edificios se multiplicará por estos factores: \n"Sólido" se refiere a estructuras impasables, como muros.</text>
+                    <font>Small</font>
+                    <anchor>Left</anchor>
+                </li>
+
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>SharpMeleePassable</key>
+                    <label>C-C Afilado {SharpMeleePassable}</label>
+                    <defaultValue>0.4</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>SharpMeleeImpassable</key>
+                    <label>C-C Afilado vs Sólidos {SharpMeleeImpassable}</label>
+                    <defaultValue>0.1</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>BluntPassable</key>
+                    <label>Contundente {BluntPassable}</label>
+                    <defaultValue>0.5</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>BluntImpassable</key>
+                    <label>Contundente vs Sólidos {BluntImpassable}</label>
+                    <defaultValue>0.3</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>SharpRangedPassable</key>
+                    <label>A Distancia Afilado {SharpRangedPassable}</label>
+                    <defaultValue>0.2</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>SharpRangedImpassable</key>
+                    <label>A Distancia Afilado vs Sólidos {SharpRangedImpassable}</label>
+                    <defaultValue>0.2</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>BombPassable</key>
+                    <label>Explosión {BombPassable}</label>
+                    <defaultValue>0.8</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+                <li Class="XmlExtensions.Setting.Slider">
+                    <key>BombImpassable</key>
+                    <label>Explosión vs Sólidos {BombImpassable}</label>
+                    <defaultValue>1</defaultValue>
+                    <min>0</min>
+                    <max>3</max>
+                    <decimals>2</decimals>
+                </li>
+
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>Defnames actuales por categoría:</text>
+                    <font>Tiny</font>
+                </li>
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>C-C Afilado: Corte, Picadura, Puñalada, Rasguño, Mordida</text>
+                    <font>Tiny</font>
+                </li>
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>Contundente: Golpe, Triturar (Crush)</text>
+                    <font>Tiny</font>
+                </li>
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>A Distancia Afilado: Puñalada a dist., Bala, Flecha</text>
+                    <font>Tiny</font>
+                </li>
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>Explosión: Bomba</text>
+                    <font>Tiny</font>
+                </li>
+                <li Class="XmlExtensions.Setting.Text">
+                    <text>"Bomba" es la única categoría que ya incluía ambos factores (2 y 4 respectivamente)</text>
+                    <font>Tiny</font>
+                </li>
+                
+                <li Class="XmlExtensions.Setting.GapLine"/>
+                
+                <li Class="XmlExtensions.Setting.Checkbox">
+                    <label>¿Revertir cambios en Torretas/Colmenas/Fragmentos?</label>
+                    <tooltip>Desactivar esto hará el juego más difícil: necesitarás hachas de demolición para romper estructuras, pero tus torretas serán más resistentes.</tooltip>
+                    <key>Buildings_Toggle</key>
+                    <defaultValue>true</defaultValue>
+                </li>
+            </settings>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ToolCapacityDef[defName="BluntCrushing"]/label</xpath>
+        <value><label>demoler (triturar)</label></value>
+    </Operation>
+</Patch>
