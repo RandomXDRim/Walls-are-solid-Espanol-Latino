@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Victor_WallsAreSolid_Settings.label>Walls Are Solid</Victor_WallsAreSolid_Settings.label>
+
+  <Victor_WallsAreSolid_Settings.settings.0.text>LOS CAMBIOS REQUIEREN REINICIAR EL JUEGO</Victor_WallsAreSolid_Settings.settings.0.text>
+  <Victor_WallsAreSolid_Settings.settings.2.text>Los valores de daño contra edificios se multiplicarán por estos factores:\n"Sólido" se refiere a estructuras infranqueables, normalmente paredes.</Victor_WallsAreSolid_Settings.settings.2.text>
+  <Victor_WallsAreSolid_Settings.settings.3.label>Cuerpo a cuerpo afilado {SharpMeleePassable}</Victor_WallsAreSolid_Settings.settings.3.label>
+  <Victor_WallsAreSolid_Settings.settings.4.label>CaC afilado vs. Sólido {SharpMeleeImpassable}</Victor_WallsAreSolid_Settings.settings.4.label>
+  <Victor_WallsAreSolid_Settings.settings.5.label>Contundente {BluntPassable}</Victor_WallsAreSolid_Settings.settings.5.label>
+  <Victor_WallsAreSolid_Settings.settings.6.label>Contundente vs. Sólido {BluntImpassable}</Victor_WallsAreSolid_Settings.settings.6.label>
+  <Victor_WallsAreSolid_Settings.settings.7.label>Afilado a distancia {SharpRangedPassable}</Victor_WallsAreSolid_Settings.settings.7.label>
+  <Victor_WallsAreSolid_Settings.settings.8.label>Afilado a distancia vs. Sólido {SharpRangedImpassable}</Victor_WallsAreSolid_Settings.settings.8.label>
+  <Victor_WallsAreSolid_Settings.settings.9.label>Explosión {BombPassable}</Victor_WallsAreSolid_Settings.settings.9.label>
+  <Victor_WallsAreSolid_Settings.settings.10.label>Explosión vs. Sólido {BombImpassable}</Victor_WallsAreSolid_Settings.settings.10.label>
+  <Victor_WallsAreSolid_Settings.settings.11.text>Defnames actuales para cada categoría:</Victor_WallsAreSolid_Settings.settings.11.text>
+  <Victor_WallsAreSolid_Settings.settings.12.text>CaC afilado: Corte, Estocada, Picotazo, Rasguño, Mordida</Victor_WallsAreSolid_Settings.settings.12.text>
+  <Victor_WallsAreSolid_Settings.settings.13.text>Contundente: Contusión, Aplastamiento</Victor_WallsAreSolid_Settings.settings.13.text>
+  <Victor_WallsAreSolid_Settings.settings.14.text>Afilado a distancia: Estocada a distancia, Bala, Flecha</Victor_WallsAreSolid_Settings.settings.14.text>
+  <Victor_WallsAreSolid_Settings.settings.15.text>Explosión: Bomba</Victor_WallsAreSolid_Settings.settings.15.text>
+  <Victor_WallsAreSolid_Settings.settings.16.text>"Bomba" es el único que ya tenía ambos factores originalmente (2 y 4 respectivamente).</Victor_WallsAreSolid_Settings.settings.16.text>
+  <Victor_WallsAreSolid_Settings.settings.18.label>¿Revertir cambios en torretas/colmenas/trozos/mecanoides?</Victor_WallsAreSolid_Settings.settings.18.label>
+
+  <Victor_WallsAreSolid_Settings.settings.18.tooltip>Desactivar esto hará el juego más difícil, ya que tendrás que llevar siempre un hacha de brecha para romper estructuras, pero tus torretas serán más resistentes.</Victor_WallsAreSolid_Settings.settings.18.tooltip>
+
+</LanguageData>
